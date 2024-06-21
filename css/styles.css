@@ -101,7 +101,6 @@ header {
   display: flex;
   justify-content: center;
   flex: 1 1 0%;
-  //height: 100%;
   order: 2;
 }
 
@@ -224,18 +223,18 @@ main {
   gap: 1.5rem;
 }
 
-.hero-block {
+.hero-inner {
   display: flex;
   color: #f6f2ed;
 }
 
-.hero-block h1 {
+.hero-inner h1 {
   font-size: 6.5rem;
   line-height: 5.625rem;
   font-weight: 400;
 }
 
-.background {
+.img-background {
   display: block;
   position: absolute;
   inset: 0;
@@ -398,7 +397,7 @@ a.btn-sec-1 {
   display: flex;
 }
 
-.product-1-inner-sec-2, .product-2-inner-sec-2 {
+.product-1-text-inner-sec-2, .product-2-text-inner-sec-2 {
   min-height: 5rem;
   z-index: 10;
 }
@@ -628,7 +627,7 @@ a.btn-sec-3 {
   display: flex;
 }
 
-.product-1-inner-sec-4, .product-2-inner-sec-4, .product-3-inner-sec-4 {
+.product-1-text-inner-sec-4, .product-2-text-inner-sec-4, .product-3-text-inner-sec-4 {
   min-height: 5rem;
   z-index: 10;
 }
