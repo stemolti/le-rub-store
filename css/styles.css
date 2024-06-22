@@ -391,7 +391,6 @@ a.btn-sec-1 {
 
 .product-1-text-container-sec-2, .product-2-text-container-sec-2 {
   min-height: 72px;
-
   flex-wrap: wrap;
   flex-direction: column;
   display: flex;
@@ -487,13 +486,8 @@ a.btn-sec-1 {
   height: 100%;
   display: flex;
   position: absolute;
-}
-
-.title-container-sec-3 {
   color: #f6f2ed;
-  justify-content: center;
-  width: 100%;
-  display: flex;
+
 }
 
 .title-inner-sec-3 {
@@ -540,8 +534,6 @@ a.btn-sec-3 {
 	cursor: pointer;
   font-family: "Maison Neue", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
 	justify-content: center;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
   font-size: 0.813rem;
   line-height: 0.938rem;	
   padding: 0px 20px;
@@ -730,7 +722,6 @@ a.btn-sec-3 {
   width: 100%;
   height: 100%;
   max-width: 100%;
-  height: auto;
   display: block;
   vertical-align: middle;
 }
@@ -954,7 +945,6 @@ footer {
 .icon-sun-open {
   fill: #A54547;
   width: 20%;
-  height: 40%;
   right: 0;
   bottom: 0;
   position: absolute;
